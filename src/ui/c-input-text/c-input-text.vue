@@ -96,7 +96,7 @@ function resizeTextarea() {
     return;
   }
 
-  const scrollHeight = textareaRef.value.scrollHeight + 2;
+  const scrollHeight = textareaRef.value.scrollHeight + 1;
 
   inputWrapperRef.value.style.height = `${scrollHeight}px`;
 }
